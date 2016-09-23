@@ -1,0 +1,70 @@
+body {
+  background-color: #a55;
+  font-size: 1.6em;
+}
+
+h1 {
+  font-size: 3em;
+  color: #ffa;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+}
+
+tr {
+  height: 4em;
+  border: 2px solid black;
+}
+
+th {
+  background-color: linen;
+  text-align: center;
+}
+
+td, th {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 25%;
+  border: none;
+}
+
+button {
+  background-color: #ffa;
+  color: #a55;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #ffff77;
+}
+
+.btn-group {
+  margin: 1em auto;
+  width: 90%;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 2em;
+}
+
+@media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+  body {
+    font-size: 3em;
+  }
+
+  table, .btn-group {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 1.8em;
+  }
+}
